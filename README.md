@@ -1,6 +1,6 @@
 # fastapi_sentiment_analysis_dockerized
 
-A sentiment analysis API using fastAPI, containerized using docker. 
+A sentiment analysis API using fastAPI, containerized using docker. The model used was distilbert.
 
 There are two modes to use this API.
 1) Put the text in the path after /pred
@@ -11,5 +11,4 @@ There are two modes to use this API.
    
    or use the http://127.0.0.1:8000/docs and type out the sentence
    
-Created by Sandeep Patra
    
