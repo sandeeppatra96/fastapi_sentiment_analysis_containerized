@@ -1,4 +1,4 @@
-# fastapi_sentiment_analysis_dockerized
+# fastapi_sentiment_analysis_docker
 
 A sentiment analysis API using fastAPI, containerized using docker. The model used was distilbert.
 
