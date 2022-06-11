@@ -8,9 +8,8 @@ COPY requirements.txt ./requirements.txt
 COPY main.py ./main.py
 
 # Install the dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-COPY ./main.py ./
 
 # Run by specifying the host and port
 CMD ["uvicorn", "main:appi", "--host", "0.0.0.0", "--port", "80"]
